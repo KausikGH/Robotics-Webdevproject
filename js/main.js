@@ -40,3 +40,6 @@ function togglePopup(event) {
   const popup = document.getElementById('popup-form');
   popup.classList.toggle('show'); // Toggle the 'show' class
 }
+document.getElementById('nav-toggle').addEventListener('click', function () {
+  document.getElementById('navbar').classList.toggle('show');
+});
